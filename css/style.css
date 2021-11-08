@@ -3,7 +3,7 @@
 
 *{
     box-sizing: border-box;
-
+    scroll-behavior: smooth;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1140px;
+    max-width: 1240px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: auto;
@@ -30,8 +30,11 @@ body {
 
 .intro {
     display: flex;
+    /* flex-wrap: wrap; */
+   
     align-items: flex-start;
-    padding: 10px;
+    justify-content: center;
+    padding: 80px 144px;
     
 }
 .dark-section {
@@ -39,8 +42,7 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    width: 50vw;
-    /* height: 100%; */
+    width: 570px;
     border-radius: 20px 20px 0 0;
     color: #fff;
 
@@ -73,18 +75,21 @@ body {
 }
 .main-title {
     margin-top: 80px;
+    width: 389px;
     font-size: 36px;
     line-height: 46px;
     font-weight: bold;
 }
 .main-text {
     margin-top: 25px;
+    width: 347px;
     font-size: 16px;
     line-height: 26px;
     font-weight: normal;
 }
 
 .bottom-cont {
+    width: 570px;
     background: #4dc490;
     border-radius: 0 0 20px 20px;
     
@@ -110,15 +115,18 @@ body {
 
 
 .form-section {
-    margin-left: 10px;
+    margin-left: 10px
+    ;
     border-radius: 20px;
     background: #fff;
 
 }
 
 .form-cont {
+    width: 570px;
     padding: 55px 60px 40px;
 }
+
 .form-title {
     margin: 0;
     font-weight: 600;
@@ -150,8 +158,10 @@ body {
     margin-top: 63px;
     padding: 29px;
     width: 100%;
+    display: inline-block;
     border:none;
     border-radius: 10px;
+    text-align: center;
     font-size: 16px;
     line-height: 19px;
     font-weight: 600;
@@ -175,3 +185,4 @@ body {
     margin-top: 8px;
     color: red;
 }
+
